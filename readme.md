@@ -16,7 +16,7 @@ and I have to work on a personal project in order to graduate in November 2022.
 
 ## Specs
 As a student, I am aware that I have a lot to learn, yet I am eager to give my best and develop the app with:
-- Symfony 6 et Php 8
+- Symfony 6 and Php 8
 - React.js or Vue.js
 - TailwindCss
 - PostgreSQL
