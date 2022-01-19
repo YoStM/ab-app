@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello StaticPagesController!{% endblock %}
+
+{% block body %}
+    <header>
+    {% include 'include/static_pages_links.html.twig' %}
+    </header>
+    <main class="h-5/6 text-center flex flex-col justify-around align-middle">
+        <h1>Accessible-budget</h1>
+        <p class=""><a href="#login">Gérer votre budget, simplement.</a></p>
+        <section id="objective" class="p-9 text-prm-dk bg-scd-lt border-2 rounded">
+            <p>La première application de gestion de budget pensée pour toutes et tous.<br/>
+            Notre objectif:<br/>
+            Rendre cet outil de gestion accessible à toutes et tous, en toutes circonstances.</p>
+        </section>
+        <section id="actions" class="">
+            <ul class="sm:flex sm:justify-around">
+                <li>
+                    <p class="my-7"><a href="#" class="p-5 border-prm-dk rounded bg-scd-lt border-2 text-prm-dk">Je crée mon espace</a></p>
+                </li>
+                <li>
+                    <p class="my-7"><a href="#" class="p-5 border-prm-dk rounded border-2">Je me connecte</a></p>
+                </li>
+            </ul>
+        </section>
+    </main>
+{% endblock %}
